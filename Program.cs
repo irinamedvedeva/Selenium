@@ -14,8 +14,9 @@ namespace Selenium
 
             IWebElement emailTextField = driver.FindElement(By.Id("index_email"));
             emailTextField.Clear();
-
             emailTextField.SendKeys("380958368820"); 
+
+
 
             driver.Close();
             driver.Quit();
